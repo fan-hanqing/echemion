@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "echemion"
-version = "0.0.1"               # keep this in sync with your tag (e.g., v0.0.1)
-description = "Electrochemical modeling utilities (placeholder)"
+version = "0.0.0"
+description = "Electrochemical ion transport and separation modeling"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }      # or use "file" if you add LICENSE
@@ -23,3 +23,4 @@ Repository = "https://github.com/fan-hanqing/echemion"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/echemion"]
+
